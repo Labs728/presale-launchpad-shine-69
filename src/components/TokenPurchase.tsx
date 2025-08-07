@@ -200,7 +200,7 @@ const TokenPurchase = () => {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Available Tokens</span>
-                  <span className="font-semibold">1,250,000 SHINE</span>
+                  <span className="font-semibold text-accent">1,250,000 SHINE</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Current Stage</span>
