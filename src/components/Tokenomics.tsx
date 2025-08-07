@@ -24,21 +24,21 @@ const Tokenomics = () => {
   return (
     <section id="tokenomics" className="py-24 px-4">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 px-4">
             <span className="text-gradient-primary">Tokenomics</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
             Transparent and sustainable token distribution designed for long-term growth
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
           {/* Token Distribution */}
-          <div className="space-y-8">
+          <div className="space-y-6 lg:space-y-8">
             <Card className="glass-card border-primary/30 animate-scale-in">
               <CardHeader>
-                <CardTitle className="text-2xl text-gradient-secondary">
+                <CardTitle className="text-xl sm:text-2xl text-gradient-secondary">
                   Token Distribution
                 </CardTitle>
               </CardHeader>
@@ -69,10 +69,10 @@ const Tokenomics = () => {
           </div>
 
           {/* Token Metrics */}
-          <div className="space-y-8">
+          <div className="space-y-6 lg:space-y-8">
             <Card className="glass-card border-accent/30 animate-scale-in">
               <CardHeader>
-                <CardTitle className="text-2xl text-gradient-accent">
+                <CardTitle className="text-xl sm:text-2xl text-gradient-accent">
                   Token Metrics
                 </CardTitle>
               </CardHeader>
@@ -125,38 +125,38 @@ const Tokenomics = () => {
         </div>
 
         {/* Key Features */}
-        <div className="mt-16 grid md:grid-cols-3 gap-8">
+        <div className="mt-12 sm:mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           <Card className="glass-card border-primary/30 text-center animate-float">
-            <CardContent className="pt-8">
-              <div className="text-4xl mb-4">🔥</div>
-              <h3 className="text-xl font-semibold mb-2 text-gradient-primary">
+            <CardContent className="pt-6 sm:pt-8">
+              <div className="text-3xl sm:text-4xl mb-4">🔥</div>
+              <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gradient-primary">
                 Deflationary
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-sm sm:text-base text-muted-foreground">
                 2% of all transactions are burned, reducing total supply over time
               </p>
             </CardContent>
           </Card>
 
-          <Card className="glass-card border-secondary/30 text-center animate-float" style={{ animationDelay: '0.2s' }}>
-            <CardContent className="pt-8">
-              <div className="text-4xl mb-4">💰</div>
-              <h3 className="text-xl font-semibold mb-2 text-gradient-secondary">
+          <Card className="glass-card border-secondary/30 text-center animate-float lg:col-span-1 sm:col-span-1" style={{ animationDelay: '0.2s' }}>
+            <CardContent className="pt-6 sm:pt-8">
+              <div className="text-3xl sm:text-4xl mb-4">💰</div>
+              <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gradient-secondary">
                 Staking Rewards
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-sm sm:text-base text-muted-foreground">
                 Earn up to 15% APY by staking your SHINE tokens
               </p>
             </CardContent>
           </Card>
 
-          <Card className="glass-card border-accent/30 text-center animate-float" style={{ animationDelay: '0.4s' }}>
-            <CardContent className="pt-8">
-              <div className="text-4xl mb-4">🎯</div>
-              <h3 className="text-xl font-semibold mb-2 text-gradient-accent">
+          <Card className="glass-card border-accent/30 text-center animate-float sm:col-span-2 lg:col-span-1" style={{ animationDelay: '0.4s' }}>
+            <CardContent className="pt-6 sm:pt-8">
+              <div className="text-3xl sm:text-4xl mb-4">🎯</div>
+              <h3 className="text-lg sm:text-xl font-semibold mb-2 text-gradient-accent">
                 Governance
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-sm sm:text-base text-muted-foreground">
                 Vote on proposals and shape the future of the SHINE ecosystem
               </p>
             </CardContent>

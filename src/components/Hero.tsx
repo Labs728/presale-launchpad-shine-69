@@ -56,31 +56,31 @@ const Hero = () => {
           </Badge>
           
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-6">
             <span className="text-gradient-primary glow-text">SHINE</span>
             <br />
             <span className="text-foreground">Token Presale</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed px-4">
             The next generation DeFi token powering the future of decentralized finance. 
             Join the revolution today.
           </p>
           
           {/* Countdown Timer */}
-          <div className="glass-card p-8 max-w-2xl mx-auto animate-scale-in">
-            <h3 className="text-2xl font-semibold mb-6 text-gradient-secondary">
+          <div className="glass-card p-4 sm:p-6 lg:p-8 max-w-2xl mx-auto animate-scale-in">
+            <h3 className="text-xl sm:text-2xl font-semibold mb-4 sm:mb-6 text-gradient-secondary">
               Presale Ends In
             </h3>
-            <div className="grid grid-cols-4 gap-4 mb-6">
+            <div className="grid grid-cols-4 gap-2 sm:gap-4 mb-4 sm:mb-6">
               {Object.entries(timeLeft).map(([unit, value]) => (
                 <div key={unit} className="text-center">
-                  <div className="bg-gradient-primary rounded-lg p-4 mb-2">
-                    <span className="text-3xl font-bold text-primary-foreground">
+                  <div className="bg-gradient-primary rounded-lg p-2 sm:p-3 lg:p-4 mb-2">
+                    <span className="text-lg sm:text-2xl lg:text-3xl font-bold text-primary-foreground">
                       {value.toString().padStart(2, '0')}
                     </span>
                   </div>
-                  <span className="text-sm text-muted-foreground capitalize">
+                  <span className="text-xs sm:text-sm text-muted-foreground capitalize">
                     {unit}
                   </span>
                 </div>
@@ -113,18 +113,18 @@ const Hero = () => {
           </div>
           
           {/* Token Info */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-12 max-w-3xl mx-auto">
-            <div className="glass-card p-6 text-center animate-float">
-              <div className="text-3xl font-bold text-gradient-accent mb-2">$0.12</div>
-              <div className="text-muted-foreground">Current Price</div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 pt-8 sm:pt-12 max-w-3xl mx-auto">
+            <div className="glass-card p-4 sm:p-6 text-center animate-float">
+              <div className="text-2xl sm:text-3xl font-bold text-gradient-accent mb-2">$0.12</div>
+              <div className="text-sm sm:text-base text-muted-foreground">Current Price</div>
             </div>
-            <div className="glass-card p-6 text-center animate-float" style={{ animationDelay: '0.2s' }}>
-              <div className="text-3xl font-bold text-gradient-secondary mb-2">100M</div>
-              <div className="text-muted-foreground">Total Supply</div>
+            <div className="glass-card p-4 sm:p-6 text-center animate-float" style={{ animationDelay: '0.2s' }}>
+              <div className="text-2xl sm:text-3xl font-bold text-gradient-secondary mb-2">100M</div>
+              <div className="text-sm sm:text-base text-muted-foreground">Total Supply</div>
             </div>
-            <div className="glass-card p-6 text-center animate-float" style={{ animationDelay: '0.4s' }}>
-              <div className="text-3xl font-bold text-gradient-primary mb-2">25%</div>
-              <div className="text-muted-foreground">Presale Allocation</div>
+            <div className="glass-card p-4 sm:p-6 text-center animate-float" style={{ animationDelay: '0.4s' }}>
+              <div className="text-2xl sm:text-3xl font-bold text-gradient-primary mb-2">25%</div>
+              <div className="text-sm sm:text-base text-muted-foreground">Presale Allocation</div>
             </div>
           </div>
         </div>

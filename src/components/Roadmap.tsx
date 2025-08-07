@@ -96,36 +96,36 @@ const Roadmap = () => {
   return (
     <section id="roadmap" className="py-24 px-4">
       <div className="container mx-auto max-w-6xl">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 px-4">
             <span className="text-gradient-primary">Development Roadmap</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
             Our journey to revolutionize DeFi with innovative solutions and community-driven development
           </p>
         </div>
 
         <div className="relative">
-          {/* Timeline Line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-primary via-secondary to-accent opacity-30" />
+          {/* Timeline Line - Hidden on mobile */}
+          <div className="hidden lg:block absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-primary via-secondary to-accent opacity-30" />
 
-          <div className="space-y-12">
+          <div className="space-y-8 lg:space-y-12">
             {roadmapItems.map((item, index) => (
               <div 
                 key={index} 
-                className={`flex items-center ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'} animate-fade-in-up`}
+                className={`flex flex-col lg:flex-row items-center ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} animate-fade-in-up`}
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
                 {/* Content Card */}
-                <div className="w-5/12">
+                <div className="w-full lg:w-5/12">
                   <Card className="glass-card border-primary/30 hover:border-primary/50 transition-all duration-300">
-                    <CardContent className="p-6">
+                    <CardContent className="p-4 sm:p-6">
                       <div className="flex items-center gap-3 mb-4">
                         <Badge className={getStatusColor(item.status)}>
                           {getStatusIcon(item.status)} {item.phase}
                         </Badge>
                       </div>
-                      <h3 className="text-xl font-semibold mb-3 text-gradient-secondary">
+                      <h3 className="text-lg sm:text-xl font-semibold mb-3 text-gradient-secondary">
                         {item.title}
                       </h3>
                       <ul className="space-y-2">
@@ -140,8 +140,8 @@ const Roadmap = () => {
                   </Card>
                 </div>
 
-                {/* Timeline Node */}
-                <div className="flex-shrink-0 relative">
+                {/* Timeline Node - Hidden on mobile */}
+                <div className="hidden lg:flex flex-shrink-0 relative">
                   <div className="w-6 h-6 rounded-full bg-primary shadow-glow-primary flex items-center justify-center z-10 relative">
                     <div className="w-3 h-3 rounded-full bg-primary-foreground" />
                   </div>
@@ -150,8 +150,8 @@ const Roadmap = () => {
                   )}
                 </div>
 
-                {/* Spacer */}
-                <div className="w-5/12" />
+                {/* Spacer - Hidden on mobile */}
+                <div className="hidden lg:block w-5/12" />
               </div>
             ))}
           </div>

@@ -52,27 +52,27 @@ const FAQ = () => {
   return (
     <section id="faq" className="py-24 px-4">
       <div className="container mx-auto max-w-4xl">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 px-4">
             <span className="text-gradient-primary">Frequently Asked Questions</span>
           </h2>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-lg sm:text-xl text-muted-foreground px-4">
             Get answers to the most common questions about SHINE Token
           </p>
         </div>
 
-        <div className="glass-card border-primary/30 p-8 animate-scale-in">
+        <div className="glass-card border-primary/30 p-4 sm:p-6 lg:p-8 animate-scale-in">
           <Accordion type="single" collapsible className="space-y-4">
             {faqs.map((faq, index) => (
               <AccordionItem 
                 key={index} 
                 value={`item-${index}`}
-                className="border border-border/30 rounded-lg px-6 hover:border-primary/50 transition-colors"
+                className="border border-border/30 rounded-lg px-4 sm:px-6 hover:border-primary/50 transition-colors"
               >
-                <AccordionTrigger className="text-left font-semibold text-foreground hover:text-primary">
+                <AccordionTrigger className="text-left font-semibold text-foreground hover:text-primary text-sm sm:text-base">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed pt-2">
+                <AccordionContent className="text-muted-foreground leading-relaxed pt-2 text-sm sm:text-base">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
@@ -81,32 +81,32 @@ const FAQ = () => {
         </div>
 
         {/* Contact Section */}
-        <div className="mt-16 text-center">
-          <div className="glass-card border-secondary/30 p-8">
-            <h3 className="text-2xl font-semibold mb-4 text-gradient-secondary">
+        <div className="mt-12 sm:mt-16 text-center">
+          <div className="glass-card border-secondary/30 p-6 sm:p-8">
+            <h3 className="text-xl sm:text-2xl font-semibold mb-4 text-gradient-secondary">
               Still have questions?
             </h3>
-            <p className="text-muted-foreground mb-6">
+            <p className="text-muted-foreground mb-6 text-sm sm:text-base">
               Our team is here to help. Reach out through any of our official channels.
             </p>
-            <div className="flex flex-wrap justify-center gap-4">
+            <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
               <a 
                 href="#" 
-                className="inline-flex items-center gap-2 px-6 py-3 bg-primary/20 hover:bg-primary/30 rounded-lg transition-colors"
+                className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-primary/20 hover:bg-primary/30 rounded-lg transition-colors text-sm sm:text-base"
               >
                 <span>💬</span>
                 <span>Telegram</span>
               </a>
               <a 
                 href="#" 
-                className="inline-flex items-center gap-2 px-6 py-3 bg-secondary/20 hover:bg-secondary/30 rounded-lg transition-colors"
+                className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-secondary/20 hover:bg-secondary/30 rounded-lg transition-colors text-sm sm:text-base"
               >
                 <span>🐦</span>
                 <span>Twitter</span>
               </a>
               <a 
                 href="#" 
-                className="inline-flex items-center gap-2 px-6 py-3 bg-accent/20 hover:bg-accent/30 rounded-lg transition-colors"
+                className="inline-flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 bg-accent/20 hover:bg-accent/30 rounded-lg transition-colors text-sm sm:text-base"
               >
                 <span>📧</span>
                 <span>Email</span>

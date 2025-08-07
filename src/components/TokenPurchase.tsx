@@ -80,20 +80,20 @@ const TokenPurchase = () => {
   return (
     <section id="buy" className="py-24 px-4">
       <div className="container mx-auto max-w-4xl">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 px-4">
             <span className="text-gradient-primary">Buy SHINE Tokens</span>
           </h2>
-          <p className="text-xl text-muted-foreground">
+          <p className="text-lg sm:text-xl text-muted-foreground px-4">
             Secure your position in the future of DeFi
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-6 lg:gap-8">
           {/* Purchase Form */}
           <Card className="glass-card border-primary/30 animate-scale-in">
             <CardHeader>
-              <CardTitle className="text-2xl text-gradient-secondary">
+              <CardTitle className="text-xl sm:text-2xl text-gradient-secondary">
                 Token Exchange
               </CardTitle>
             </CardHeader>
