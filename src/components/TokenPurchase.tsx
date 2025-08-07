@@ -194,37 +194,37 @@ const TokenPurchase = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <div className="flex justify-between">
+                <div className="flex justify-between items-start">
                   <span className="text-muted-foreground">Tokens Sold</span>
-                  <span className="font-semibold text-accent">2,750,000 SHINE</span>
+                  <span className="font-semibold text-accent text-right whitespace-nowrap">2,750,000 SHINE</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between items-start">
                   <span className="text-muted-foreground">Available Tokens</span>
-                  <span className="font-semibold text-accent">1,250,000 SHINE</span>
+                  <span className="font-semibold text-accent text-right whitespace-nowrap">1,250,000 SHINE</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between items-start">
                   <span className="text-muted-foreground">Current Stage</span>
-                  <span className="font-semibold text-accent">Stage 2 of 4</span>
+                  <span className="font-semibold text-accent text-right whitespace-nowrap">Stage 2 of 4</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between items-start">
                   <span className="text-muted-foreground">Current Price</span>
-                  <span className="font-semibold">$0.12</span>
+                  <span className="font-semibold text-right whitespace-nowrap">$0.12</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between items-start">
                   <span className="text-muted-foreground">Next Stage Price</span>
-                  <span className="font-semibold">$0.15</span>
+                  <span className="font-semibold text-right whitespace-nowrap">$0.15</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between items-start">
                   <span className="text-muted-foreground">Listing Price</span>
-                  <span className="font-semibold text-primary">$0.20</span>
+                  <span className="font-semibold text-primary text-right whitespace-nowrap">$0.20</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between items-start">
                   <span className="text-muted-foreground">Min Purchase</span>
-                  <span className="font-semibold">0.1 SOL</span>
+                  <span className="font-semibold text-right whitespace-nowrap">0.1 SOL</span>
                 </div>
-                <div className="flex justify-between">
+                <div className="flex justify-between items-start">
                   <span className="text-muted-foreground">Max Purchase</span>
-                  <span className="font-semibold">100 SOL</span>
+                  <span className="font-semibold text-right whitespace-nowrap">100 SOL</span>
                 </div>
               </CardContent>
             </Card>
