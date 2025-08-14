@@ -87,15 +87,10 @@ const WhitePaper = () => {
               <Card className="glass-card border-primary/30">
                 <CardContent className="p-6 space-y-4">
                   <p className="leading-relaxed">
-                    SHINE Token represents a paradigm shift in the decentralized finance (DeFi) ecosystem, introducing 
-                    innovative solutions to current limitations in scalability, interoperability, and user accessibility. 
-                    Built on Solana's high-performance blockchain, SHINE aims to bridge the gap between traditional 
-                    finance and decentralized systems.
+                    SHINE Token is more than just a meme—it's a movement. Born from the energy of the Web3 community, SHINE is aimed to be a community-backed meme token designed to inject fun, fairness, and utility into the decentralized gaming ecosystem. While embracing the viral spirit of meme culture, SHINE also introduces real-world utility through a unique governance model and seamless integration into the Web3 gaming industry.
                   </p>
                   <p className="leading-relaxed">
-                    This white paper outlines our comprehensive approach to creating a sustainable, community-driven 
-                    DeFi platform that prioritizes security, transparency, and user empowerment while maintaining 
-                    competitive transaction speeds and minimal fees.
+                    Built on the ultra-fast Base  blockchain, SHINE delivers near-instant transactions and minimal fees—ideal for in-game economies, community voting, and Governance interoperability. This white paper outlines our vision for a gamified, user-governed ecosystem where players, creators, and holders shape the future of decentralized entertainment together.
                   </p>
                 </CardContent>
               </Card>
