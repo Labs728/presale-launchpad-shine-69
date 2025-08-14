@@ -135,7 +135,7 @@ const WhitePaper = () => {
                   <CardContent className="p-6">
                     <h3 className="font-semibold mb-3 text-destructive">Complex User Experience</h3>
                     <p className="text-sm leading-relaxed">
-                      Current DeFi platforms often require technical knowledge that average users 
+                      Current gaming and DeFi platforms often require technical knowledge that average users 
                       don't possess, limiting mainstream adoption and accessibility.
                     </p>
                   </CardContent>
@@ -144,8 +144,8 @@ const WhitePaper = () => {
                   <CardContent className="p-6">
                     <h3 className="font-semibold mb-3 text-destructive">Limited Interoperability</h3>
                     <p className="text-sm leading-relaxed">
-                      Most DeFi protocols operate in silos, making it difficult for users to 
-                      seamlessly move assets and interact across different platforms.
+                      Most Web3 gaming platform seem to lack community fedback integration which leads to lack of gaming interest, making it difficult for users to 
+                      participate and access gaming rewards while being unable to interact across different such gaming platform platforms.
                     </p>
                   </CardContent>
                 </Card>
@@ -158,7 +158,7 @@ const WhitePaper = () => {
               <div className="space-y-6">
                 <p className="leading-relaxed">
                   SHINE Token addresses these challenges through a comprehensive DeFi ecosystem built on 
-                  Solana's high-performance blockchain. Our solution focuses on four key pillars:
+                  Base's high-performance blockchain. Our solution focuses on four key pillars:
                 </p>
                 <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
                   <Card className="glass-card border-accent/30">
