@@ -319,7 +319,7 @@ const WhitePaper = () => {
                         <div className="text-sm text-muted-foreground">Real Time TPS Capability</div>
                       </div>
                       <div className="text-center p-4 bg-background/50 rounded-lg">
-                        <div className="text-2xl font-bold text-accent">400ms</div>
+                        <div className="text-2xl font-bold text-accent">2s</div>
                         <div className="text-sm text-muted-foreground">Block Time</div>
                       </div>
                       <div className="text-center p-4 bg-background/50 rounded-lg">
@@ -329,31 +329,7 @@ const WhitePaper = () => {
                     </div>
                   </CardContent>
                 </Card>
-
-                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
-                  <Card className="glass-card border-primary/30">
-                    <CardContent className="p-6">
-                      <h3 className="font-semibold mb-3">Smart Contract Security</h3>
-                      <ul className="space-y-2 text-sm">
-                        <li className="flex items-center gap-2">
-                          <span className="text-accent">✓</span>
-                          Multi-signature wallet integration
-                        </li>
-                        <li className="flex items-center gap-2">
-                          <span className="text-accent">✓</span>
-                          Regular security audits by leading firms
-                        </li>
-                        <li className="flex items-center gap-2">
-                          <span className="text-accent">✓</span>
-                          Time-locked administrative functions
-                        </li>
-                        <li className="flex items-center gap-2">
-                          <span className="text-accent">✓</span>
-                          Emergency pause mechanisms
-                        </li>
-                      </ul>
-                    </CardContent>
-                  </Card>
+                
                   <Card className="glass-card border-primary/30">
                     <CardContent className="p-6">
                       <h3 className="font-semibold mb-3">Cross-Chain Infrastructure</h3>
@@ -397,7 +373,7 @@ const WhitePaper = () => {
                           </div>
                           <div className="flex justify-between">
                             <span className="text-muted-foreground">Total Supply</span>
-                            <span className="font-semibold">100,000,000 SHINE</span>
+                            <span className="font-semibold">100,000,000,000 SHINE</span>
                           </div>
                           <div className="flex justify-between">
                             <span className="text-muted-foreground">Blockchain</span>
