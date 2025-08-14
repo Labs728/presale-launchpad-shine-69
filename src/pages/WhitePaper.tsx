@@ -165,7 +165,7 @@ const WhitePaper = () => {
                     <CardContent className="p-6">
                       <h3 className="font-semibold mb-3 text-accent">⚡ Ultra-Fast Transactions</h3>
                       <p className="text-sm leading-relaxed">
-                        Leveraging Solana's 50,000+ TPS capability to provide near-instantaneous 
+                        Leveraging Solana's 100+ TPS capability which is around 5 times compared to Ethereums to provide near-instantaneous 
                         transaction confirmations with minimal fees.
                       </p>
                     </CardContent>
@@ -183,8 +183,8 @@ const WhitePaper = () => {
                     <CardContent className="p-6">
                       <h3 className="font-semibold mb-3 text-accent">👥 User-Centric Design</h3>
                       <p className="text-sm leading-relaxed">
-                        Intuitive interfaces and simplified processes make DeFi accessible to 
-                        users regardless of their technical background.
+                        Intuitive interfaces and simplified processes make gaming and DeFi accessible to 
+                        users regardless of their technical background while also boosting gaming interactions by giving high rewards for gaming participants which inturn improves token adaptation and token value.
                       </p>
                     </CardContent>
                   </Card>
@@ -192,8 +192,7 @@ const WhitePaper = () => {
                     <CardContent className="p-6">
                       <h3 className="font-semibold mb-3 text-accent">🛡️ Enhanced Security</h3>
                       <p className="text-sm leading-relaxed">
-                        Multi-layered security protocols and regular audits ensure the highest 
-                        level of asset protection for our users.
+                        By integrating community feedback into token utility, governance, and game development, SHINE Token fosters a truly player-first environment.
                       </p>
                     </CardContent>
                   </Card>
