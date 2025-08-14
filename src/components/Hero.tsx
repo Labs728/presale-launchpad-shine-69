@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
+import { FileText } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-crypto.jpg";
 
 const Hero = () => {
@@ -110,6 +112,16 @@ const Hero = () => {
             >
               Buy SHINE Tokens
             </Button>
+            <Link to="/whitepaper">
+              <Button 
+                size="lg" 
+                variant="outline"
+                className="text-lg px-8 py-6 border-primary/50 hover:bg-primary/10"
+              >
+                <FileText className="mr-2 h-5 w-5" />
+                White Paper
+              </Button>
+            </Link>
           </div>
           
           {/* Token Info */}
