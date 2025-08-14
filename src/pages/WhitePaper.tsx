@@ -165,7 +165,7 @@ const WhitePaper = () => {
                     <CardContent className="p-6">
                       <h3 className="font-semibold mb-3 text-accent">⚡ Ultra-Fast Transactions</h3>
                       <p className="text-sm leading-relaxed">
-                        Leveraging Solana's 100+ TPS capability which is around 5 times compared to Ethereums to provide near-instantaneous 
+                        Leveraging Base's 100+ TPS capability which is around 5 times compared to Ethereums to provide near-instantaneous 
                         transaction confirmations with minimal fees.
                       </p>
                     </CardContent>
@@ -174,8 +174,7 @@ const WhitePaper = () => {
                     <CardContent className="p-6">
                       <h3 className="font-semibold mb-3 text-accent">🔗 Cross-Chain Compatibility</h3>
                       <p className="text-sm leading-relaxed">
-                        Built-in bridge technology enabling seamless asset transfers between 
-                        Solana and other major blockchains.
+                        SHINE Token, built on Base, leverages the power of this Ethereum Layer 2 solution to overcome these congestion limitations and unlock a seamless gaming economy.
                       </p>
                     </CardContent>
                   </Card>
@@ -190,7 +189,7 @@ const WhitePaper = () => {
                   </Card>
                   <Card className="glass-card border-accent/30">
                     <CardContent className="p-6">
-                      <h3 className="font-semibold mb-3 text-accent">🛡️ Enhanced Security</h3>
+                      <h3 className="font-semibold mb-3 text-accent">👥 Deep Community Integration</h3>
                       <p className="text-sm leading-relaxed">
                         By integrating community feedback into token utility, governance, and game development, SHINE Token fosters a truly player-first environment.
                       </p>
@@ -208,10 +207,10 @@ const WhitePaper = () => {
                   <CardContent className="p-6">
                     <h3 className="text-2xl font-semibold mb-4 text-gradient-primary">🎯 Our Vision</h3>
                     <p className="leading-relaxed">
-                      To create a world where decentralized finance is accessible, efficient, and 
+                      To create a world where decentralized gaming is accessible, efficient, and 
                       beneficial for everyone, regardless of their geographical location or 
-                      economic background. We envision a future where traditional financial 
-                      barriers are eliminated through innovative blockchain technology.
+                      economic background. We envision a future wherestandard Decentralized gaming 
+                      barriers are eliminated through innovative community backed feedback and ideas while also retaining the meme culture.
                     </p>
                   </CardContent>
                 </Card>
@@ -219,9 +218,9 @@ const WhitePaper = () => {
                   <CardContent className="p-6">
                     <h3 className="text-2xl font-semibold mb-4 text-gradient-secondary">🚀 Our Mission</h3>
                     <p className="leading-relaxed">
-                      To democratize access to financial services by building a comprehensive, 
-                      user-friendly DeFi ecosystem that prioritizes security, transparency, and 
-                      community governance while delivering superior performance and value to our users.
+                      To create a token with a utility that solves the decline of gaming adoption into the Web3 infrastructure by building a comprehensive, 
+                      user-friendly and community backed gaming and DeFi ecosystem that prioritizes security, transparency, and 
+                      community governance while delivering superior performance and value to our users in the best way possible.
                     </p>
                   </CardContent>
                 </Card>
