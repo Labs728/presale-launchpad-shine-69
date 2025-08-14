@@ -262,7 +262,7 @@ const WhitePaper = () => {
                           <h3 className="font-semibold mb-2">Staking Rewards</h3>
                           <p className="text-sm text-muted-foreground">
                             Users can stake SHINE tokens to earn attractive yields while contributing 
-                            to network security and receiving additional benefits.
+                            to token activity and value while receiving additional benefits.
                           </p>
                         </div>
                       </div>
@@ -275,10 +275,9 @@ const WhitePaper = () => {
                           <span className="text-primary font-bold">3</span>
                         </div>
                         <div>
-                          <h3 className="font-semibold mb-2">Transaction Fee Discounts</h3>
+                          <h3 className="font-semibold mb-2">Gaming Fee Discounts</h3>
                           <p className="text-sm text-muted-foreground">
-                            SHINE holders enjoy reduced transaction fees across all platform 
-                            services, with higher holdings providing greater discounts.
+                            SHINE holders enjoy reduced gaming participation fees across all $SHINE gaming platforms, with higher holdings providing greater discounts.
                           </p>
                         </div>
                       </div>
@@ -312,19 +311,19 @@ const WhitePaper = () => {
                   <CardContent className="p-6">
                     <h3 className="text-xl font-semibold mb-4 text-gradient-accent">Solana Foundation</h3>
                     <p className="leading-relaxed mb-4">
-                      SHINE Token is built on Solana, chosen for its exceptional performance characteristics:
+                      SHINE Token is built on Base, chosen for its exceptional performance characteristics:
                     </p>
                     <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4">
                       <div className="text-center p-4 bg-background/50 rounded-lg">
-                        <div className="text-2xl font-bold text-accent">50K+</div>
-                        <div className="text-sm text-muted-foreground">TPS Capability</div>
+                        <div className="text-2xl font-bold text-accent">100+</div>
+                        <div className="text-sm text-muted-foreground">Real Time TPS Capability</div>
                       </div>
                       <div className="text-center p-4 bg-background/50 rounded-lg">
                         <div className="text-2xl font-bold text-accent">400ms</div>
                         <div className="text-sm text-muted-foreground">Block Time</div>
                       </div>
                       <div className="text-center p-4 bg-background/50 rounded-lg">
-                        <div className="text-2xl font-bold text-accent">$0.001</div>
+                        <div className="text-2xl font-bold text-accent">$0.01</div>
                         <div className="text-sm text-muted-foreground">Avg Transaction Fee</div>
                       </div>
                     </div>
