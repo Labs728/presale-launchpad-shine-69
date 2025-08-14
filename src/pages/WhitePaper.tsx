@@ -12,27 +12,29 @@ const WhitePaper = () => {
       {/* Header */}
       <header className="sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div className="flex items-center gap-4">
               <Link to="/">
                 <Button variant="ghost" size="sm">
                   <ArrowLeft className="h-4 w-4 mr-2" />
-                  Back to Home
+                  <span className="hidden sm:inline">Back to Home</span>
+                  <span className="sm:hidden">Back</span>
                 </Button>
               </Link>
               <div>
-                <h1 className="text-xl font-bold text-gradient-primary">SHINE Token</h1>
-                <p className="text-sm text-muted-foreground">White Paper v1.0</p>
+                <h1 className="text-lg sm:text-xl font-bold text-gradient-primary">SHINE Token</h1>
+                <p className="text-xs sm:text-sm text-muted-foreground">White Paper v1.0</p>
               </div>
             </div>
-            <div className="flex items-center gap-2">
-              <Button variant="outline" size="sm">
+            <div className="flex items-center gap-2 w-full sm:w-auto">
+              <Button variant="outline" size="sm" className="flex-1 sm:flex-none">
                 <Share2 className="h-4 w-4 mr-2" />
-                Share
+                <span className="hidden sm:inline">Share</span>
               </Button>
-              <Button size="sm" className="btn-crypto-primary">
+              <Button size="sm" className="btn-crypto-primary flex-1 sm:flex-none">
                 <Download className="h-4 w-4 mr-2" />
-                Download PDF
+                <span className="hidden sm:inline">Download PDF</span>
+                <span className="sm:hidden">PDF</span>
               </Button>
             </div>
           </div>
@@ -56,8 +58,7 @@ const WhitePaper = () => {
                   <a href="#architecture" className="block text-muted-foreground hover:text-primary transition-colors">7. Architecture</a>
                   <a href="#tokenomics" className="block text-muted-foreground hover:text-primary transition-colors">8. Tokenomics</a>
                   <a href="#roadmap" className="block text-muted-foreground hover:text-primary transition-colors">9. Roadmap</a>
-                  <a href="#team" className="block text-muted-foreground hover:text-primary transition-colors">10. Team</a>
-                  <a href="#conclusion" className="block text-muted-foreground hover:text-primary transition-colors">11. Conclusion</a>
+                  <a href="#conclusion" className="block text-muted-foreground hover:text-primary transition-colors">10. Conclusion</a>
                 </nav>
               </CardContent>
             </Card>
@@ -69,12 +70,12 @@ const WhitePaper = () => {
             <div className="text-center space-y-6">
               <div className="space-y-4">
                 <Badge className="bg-primary/20 text-primary border-primary/50">Version 1.0 | December 2024</Badge>
-                <h1 className="text-4xl md:text-5xl font-bold">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
                   <span className="text-gradient-primary">SHINE Token</span>
                   <br />
-                  <span className="text-2xl md:text-3xl text-muted-foreground">White Paper</span>
+                  <span className="text-xl sm:text-2xl md:text-3xl text-muted-foreground">White Paper</span>
                 </h1>
-                <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+                <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto px-4">
                   Revolutionizing Decentralized Finance Through Innovation and Community-Driven Development
                 </p>
               </div>
@@ -82,7 +83,7 @@ const WhitePaper = () => {
 
             {/* Abstract */}
             <section id="abstract" className="space-y-6">
-              <h2 className="text-3xl font-bold text-gradient-secondary">1. Abstract</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-gradient-secondary">1. Abstract</h2>
               <Card className="glass-card border-primary/30">
                 <CardContent className="p-6 space-y-4">
                   <p className="leading-relaxed">
@@ -102,7 +103,7 @@ const WhitePaper = () => {
 
             {/* Introduction */}
             <section id="introduction" className="space-y-6">
-              <h2 className="text-3xl font-bold text-gradient-secondary">2. Introduction</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-gradient-secondary">2. Introduction</h2>
               <div className="space-y-4">
                 <p className="leading-relaxed">
                   The decentralized finance revolution has transformed how we think about financial services, 
@@ -121,8 +122,8 @@ const WhitePaper = () => {
 
             {/* Problem Statement */}
             <section id="problem" className="space-y-6">
-              <h2 className="text-3xl font-bold text-gradient-secondary">3. Problem Statement</h2>
-              <div className="grid md:grid-cols-2 gap-6">
+              <h2 className="text-2xl sm:text-3xl font-bold text-gradient-secondary">3. Problem Statement</h2>
+              <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
                 <Card className="glass-card border-destructive/30">
                   <CardContent className="p-6">
                     <h3 className="font-semibold mb-3 text-destructive">High Transaction Costs</h3>
@@ -164,13 +165,13 @@ const WhitePaper = () => {
 
             {/* Solution */}
             <section id="solution" className="space-y-6">
-              <h2 className="text-3xl font-bold text-gradient-secondary">4. Our Solution</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-gradient-secondary">4. Our Solution</h2>
               <div className="space-y-6">
                 <p className="leading-relaxed">
                   SHINE Token addresses these challenges through a comprehensive DeFi ecosystem built on 
                   Solana's high-performance blockchain. Our solution focuses on four key pillars:
                 </p>
-                <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
                   <Card className="glass-card border-accent/30">
                     <CardContent className="p-6">
                       <h3 className="font-semibold mb-3 text-accent">⚡ Ultra-Fast Transactions</h3>
@@ -213,8 +214,8 @@ const WhitePaper = () => {
 
             {/* Vision & Mission */}
             <section id="vision" className="space-y-6">
-              <h2 className="text-3xl font-bold text-gradient-secondary">5. Vision & Mission</h2>
-              <div className="grid md:grid-cols-2 gap-6">
+              <h2 className="text-2xl sm:text-3xl font-bold text-gradient-secondary">5. Vision & Mission</h2>
+              <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
                 <Card className="glass-card border-primary/30">
                   <CardContent className="p-6">
                     <h3 className="text-2xl font-semibold mb-4 text-gradient-primary">🎯 Our Vision</h3>
@@ -241,7 +242,7 @@ const WhitePaper = () => {
 
             {/* Token Utility */}
             <section id="utility" className="space-y-6">
-              <h2 className="text-3xl font-bold text-gradient-secondary">6. Token Utility & Use Cases</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-gradient-secondary">6. Token Utility & Use Cases</h2>
               <div className="space-y-6">
                 <p className="leading-relaxed">
                   SHINE Token serves multiple utility functions within our ecosystem, creating 
@@ -318,7 +319,7 @@ const WhitePaper = () => {
 
             {/* Architecture */}
             <section id="architecture" className="space-y-6">
-              <h2 className="text-3xl font-bold text-gradient-secondary">7. Blockchain Architecture</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-gradient-secondary">7. Blockchain Architecture</h2>
               <div className="space-y-6">
                 <Card className="glass-card border-accent/30">
                   <CardContent className="p-6">
@@ -326,7 +327,7 @@ const WhitePaper = () => {
                     <p className="leading-relaxed mb-4">
                       SHINE Token is built on Solana, chosen for its exceptional performance characteristics:
                     </p>
-                    <div className="grid md:grid-cols-3 gap-4">
+                    <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4">
                       <div className="text-center p-4 bg-background/50 rounded-lg">
                         <div className="text-2xl font-bold text-accent">50K+</div>
                         <div className="text-sm text-muted-foreground">TPS Capability</div>
@@ -343,7 +344,7 @@ const WhitePaper = () => {
                   </CardContent>
                 </Card>
 
-                <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
                   <Card className="glass-card border-primary/30">
                     <CardContent className="p-6">
                       <h3 className="font-semibold mb-3">Smart Contract Security</h3>
@@ -396,11 +397,11 @@ const WhitePaper = () => {
 
             {/* Tokenomics */}
             <section id="tokenomics" className="space-y-6">
-              <h2 className="text-3xl font-bold text-gradient-secondary">8. Tokenomics & Distribution</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-gradient-secondary">8. Tokenomics & Distribution</h2>
               <div className="space-y-6">
                 <Card className="glass-card border-primary/30">
                   <CardContent className="p-6">
-                    <div className="grid md:grid-cols-2 gap-6">
+                    <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
                       <div>
                         <h3 className="text-xl font-semibold mb-4">Token Details</h3>
                         <div className="space-y-3">
@@ -459,32 +460,32 @@ const WhitePaper = () => {
 
             {/* Roadmap */}
             <section id="roadmap" className="space-y-6">
-              <h2 className="text-3xl font-bold text-gradient-secondary">9. Development Roadmap</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-gradient-secondary">9. Development Roadmap</h2>
               <div className="space-y-4">
                 {[
                   {
-                    phase: "Q1 2024",
-                    status: "completed",
-                    title: "Foundation & Planning",
-                    items: ["Project conceptualization", "Team formation", "Technical architecture", "Smart contract development"]
-                  },
-                  {
-                    phase: "Q2 2024",
-                    status: "current",
-                    title: "Development & Presale",
-                    items: ["Smart contract audit", "Presale platform launch", "Community building", "Marketing campaign"]
-                  },
-                  {
-                    phase: "Q3 2024",
+                    phase: "Q1 2025",
                     status: "upcoming",
-                    title: "Launch & Exchange",
-                    items: ["Public token launch", "DEX listings", "CEX negotiations", "Staking platform"]
+                    title: "Foundation & Core Development",
+                    items: ["Smart contract optimization", "Security audit completion", "Initial dApp development", "Community governance setup"]
                   },
                   {
-                    phase: "Q4 2024",
+                    phase: "Q2 2025",
+                    status: "upcoming",
+                    title: "Launch & Market Entry",
+                    items: ["Public token launch", "DEX listings (Raydium, Orca)", "Staking platform release", "Marketing campaign launch"]
+                  },
+                  {
+                    phase: "Q3 2025",
                     status: "upcoming",
                     title: "Ecosystem Expansion",
-                    items: ["DeFi integrations", "Governance platform", "Mobile app", "Partnerships"]
+                    items: ["CEX negotiations", "DeFi protocol integrations", "Mobile app development", "Cross-chain bridge"]
+                  },
+                  {
+                    phase: "Q4 2025",
+                    status: "upcoming",
+                    title: "Advanced Features",
+                    items: ["Yield farming protocols", "NFT marketplace integration", "Advanced analytics dashboard", "Enterprise partnerships"]
                   }
                 ].map((item, index) => (
                   <Card key={index} className="glass-card border-primary/30">
@@ -499,7 +500,7 @@ const WhitePaper = () => {
                         </Badge>
                         <div className="flex-1">
                           <h3 className="font-semibold mb-2">{item.title}</h3>
-                          <div className="grid md:grid-cols-2 gap-2">
+                          <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-2">
                             {item.items.map((task, taskIndex) => (
                               <div key={taskIndex} className="flex items-center gap-2 text-sm text-muted-foreground">
                                 <span className="text-primary">•</span>
@@ -513,45 +514,20 @@ const WhitePaper = () => {
                   </Card>
                 ))}
               </div>
-            </section>
 
-            {/* Team */}
-            <section id="team" className="space-y-6">
-              <h2 className="text-3xl font-bold text-gradient-secondary">10. Team & Advisors</h2>
-              <div className="grid md:grid-cols-3 gap-6">
-                <Card className="glass-card border-primary/30">
-                  <CardContent className="p-6 text-center">
-                    <div className="w-16 h-16 rounded-full bg-gradient-primary mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-primary-foreground font-bold text-xl">JS</span>
-                    </div>
-                    <h3 className="font-semibold mb-1">John Smith</h3>
-                    <p className="text-sm text-primary mb-2">CEO & Founder</p>
-                    <p className="text-xs text-muted-foreground">
-                      Former blockchain engineer at major DeFi protocols with 8+ years experience in distributed systems.
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card className="glass-card border-primary/30">
-                  <CardContent className="p-6 text-center">
-                    <div className="w-16 h-16 rounded-full bg-gradient-secondary mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-primary-foreground font-bold text-xl">SR</span>
-                    </div>
-                    <h3 className="font-semibold mb-1">Sarah Rodriguez</h3>
-                    <p className="text-sm text-secondary mb-2">CTO</p>
-                    <p className="text-xs text-muted-foreground">
-                      PhD in Computer Science, previously led engineering teams at top fintech companies.
-                    </p>
-                  </CardContent>
-                </Card>
-                <Card className="glass-card border-primary/30">
-                  <CardContent className="p-6 text-center">
-                    <div className="w-16 h-16 rounded-full bg-gradient-accent mx-auto mb-4 flex items-center justify-center">
-                      <span className="text-primary-foreground font-bold text-xl">MJ</span>
-                    </div>
-                    <h3 className="font-semibold mb-1">Michael Johnson</h3>
-                    <p className="text-sm text-accent mb-2">Head of Business</p>
-                    <p className="text-xs text-muted-foreground">
-                      15+ years in financial services and business development at leading investment firms.
+              {/* Beyond 2025 */}
+              <div className="mt-16">
+                <Card className="glass-card border-accent/30">
+                  <CardContent className="p-8 text-center">
+                    <div className="text-4xl mb-4">🌟</div>
+                    <h3 className="text-2xl font-bold mb-4 text-gradient-accent">
+                      Beyond 2025
+                    </h3>
+                    <p className="text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+                      Our long-term vision includes building a comprehensive DeFi ecosystem with 
+                      innovative financial products, real-world asset tokenization, and institutional 
+                      adoption. SHINE will become the cornerstone of next-generation decentralized finance, 
+                      enabling seamless integration between traditional and decentralized financial systems.
                     </p>
                   </CardContent>
                 </Card>
@@ -560,7 +536,7 @@ const WhitePaper = () => {
 
             {/* Conclusion */}
             <section id="conclusion" className="space-y-6">
-              <h2 className="text-3xl font-bold text-gradient-secondary">11. Conclusion</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-gradient-secondary">10. Conclusion</h2>
               <Card className="glass-card border-primary/30">
                 <CardContent className="p-6 space-y-4">
                   <p className="leading-relaxed">
