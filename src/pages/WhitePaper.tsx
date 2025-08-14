@@ -101,16 +101,10 @@ const WhitePaper = () => {
               <h2 className="text-2xl sm:text-3xl font-bold text-gradient-secondary">2. Introduction</h2>
               <div className="space-y-4">
                 <p className="leading-relaxed">
-                  The decentralized finance revolution has transformed how we think about financial services, 
-                  removing intermediaries and providing unprecedented access to financial tools. However, 
-                  current DeFi protocols face significant challenges including high transaction fees, 
-                  network congestion, and complex user experiences that limit mainstream adoption.
+                  The decentralized gaming revolution has reshaped how we engage with gaming systems and platforms—eliminating intermediaries and enabling global, permissionless access to seamless and eye opening gaming experiences. Yet, many current gaming and DeFi protocols still struggle with high transaction fees, network congestion, and interfaces that are too complex for everyday users—barriers that prevent broader participation.
                 </p>
                 <p className="leading-relaxed">
-                  SHINE Token emerges as a solution to these challenges, leveraging Solana's advanced 
-                  blockchain technology to deliver fast, affordable, and user-friendly DeFi services. 
-                  Our platform focuses on creating an ecosystem where users can seamlessly interact 
-                  with various financial products while maintaining full control over their assets.
+                  SHINE Token rises to meet these challenges, combining the cultural appeal of meme tokens with real utility in the Web3 gaming space. Built on Base high-speed, low-cost blockchain, SHINE enables fast, affordable, and intuitive interactions within a gamified DeFi ecosystem. Whether gaming, trading, staking, or participating in community governance, users retain full control over their assets while enjoying a more engaging and accessible on-chain experience.
                 </p>
               </div>
             </section>
