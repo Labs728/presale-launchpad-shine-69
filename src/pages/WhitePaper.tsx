@@ -372,16 +372,16 @@ const WhitePaper = () => {
                             <span className="font-semibold">SHINE</span>
                           </div>
                           <div className="flex justify-between">
-                            <span className="text-muted-foreground">Total Supply</span>
-                            <span className="font-semibold">100,000,000,000 SHINE</span>
+                            <span className="text-muted-foreground">Initial Supply</span>
+                            <span className="font-semibold">10,000,000,000 SHINE</span>
                           </div>
                           <div className="flex justify-between">
                             <span className="text-muted-foreground">Blockchain</span>
-                            <span className="font-semibold">Solana (SPL Token)</span>
+                            <span className="font-semibold">Base Network</span>
                           </div>
                           <div className="flex justify-between">
                             <span className="text-muted-foreground">Decimals</span>
-                            <span className="font-semibold">9</span>
+                            <span className="font-semibold">18</span>
                           </div>
                         </div>
                       </div>
@@ -394,22 +394,14 @@ const WhitePaper = () => {
                           </div>
                           <div className="flex justify-between items-center">
                             <span className="text-muted-foreground">Liquidity</span>
-                            <span className="font-semibold text-accent">20%</span>
+                            <span className="font-semibold text-accent">25%</span>
                           </div>
                           <div className="flex justify-between items-center">
                             <span className="text-muted-foreground">Staking Rewards</span>
-                            <span className="font-semibold text-secondary">20%</span>
+                            <span className="font-semibold text-secondary">40%</span>
                           </div>
                           <div className="flex justify-between items-center">
                             <span className="text-muted-foreground">Team & Advisors</span>
-                            <span className="font-semibold">15%</span>
-                          </div>
-                          <div className="flex justify-between items-center">
-                            <span className="text-muted-foreground">Development</span>
-                            <span className="font-semibold">10%</span>
-                          </div>
-                          <div className="flex justify-between items-center">
-                            <span className="text-muted-foreground">Marketing</span>
                             <span className="font-semibold">10%</span>
                           </div>
                         </div>
